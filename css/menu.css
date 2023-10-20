@@ -161,3 +161,32 @@ h2 {
 .container .row4 .square4:active {
     transform: scale(.5);
 }  
+
+/*---------------------- sesta riga------------------------ */
+
+.container .rowa{
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    margin: 20px 0px 60px 0px;
+}
+
+.container .row4 .Img1 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    padding: 50px;
+    margin: 20px;
+    transition: 2s; 
+    margin-bottom: 60px ;
+} 
+
+.container .row4 .square4:hover {
+    transform: scale(2);
+}  
+
+.container .row4 .square4:active {
+    transform: scale(.5);
+}  
