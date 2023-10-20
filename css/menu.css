@@ -1,0 +1,163 @@
+/*  Stili generali di pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 18px;
+    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+/* ---------------------------------------- */
+
+h1 {
+    position: absolute;
+    top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h2 {
+    margin: 20px 0px 0px 0px;
+    width: 60%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap:wrap;
+    margin: 200px 0px 0px 0px;
+    
+}
+
+/*---------------------- prima riga------------------------ */
+.container .row {
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    margin: 20px 0px 60px 0px;
+}
+
+
+.container .row .square {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid red;
+    padding: 50px;
+    margin: 20px;
+    transition: background-color 3s;
+    margin-bottom: 60px ;
+}
+
+.container .row .square:hover {
+    background-color: red;
+} 
+
+/*---------------------- seconda riga------------------------ */
+
+.container .row1{
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    margin: 20px 0px 60px 0px;
+}
+
+.container .row1 .square1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    padding: 50px;
+    margin: 20px;
+    transition: 2s; 
+    margin-bottom: 60px ;
+} 
+
+.container .row1 .square1:active  {
+    width: 90%;
+} 
+
+/*---------------------- terza riga------------------------ */
+
+.container .row2{
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    margin: 20px 0px 60px 0px;
+}
+
+.container .row2 .square2 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    padding: 50px;
+    margin: 20px;
+    transition: 2s; 
+    margin-bottom: 60px ;
+} 
+
+.container .row2 .square2:hover {
+    border-radius: 50px;
+}  
+
+/*---------------------- quarta riga------------------------ */
+
+.container .row3{
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    margin: 20px 0px 60px 0px;
+}
+
+.container .row3 .square3 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    padding: 50px;
+    margin: 20px;
+    transition: 2s; 
+    margin-bottom: 60px ;
+} 
+
+.container .row3 .square3:hover {
+    opacity: 0;
+} 
+
+/*---------------------- quinta riga------------------------ */
+
+.container .row4{
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    margin: 20px 0px 60px 0px;
+}
+
+.container .row4 .square4 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    padding: 50px;
+    margin: 20px;
+    transition: 2s; 
+    margin-bottom: 60px ;
+} 
+
+.container .row4 .square4:hover {
+    transform: scale(2);
+}  
+
+.container .row4 .square4:active {
+    transform: scale(.5);
+}  
