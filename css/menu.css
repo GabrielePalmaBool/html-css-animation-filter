@@ -231,9 +231,11 @@ h2 {
     margin-bottom: 380px ;
 } 
 
+
+
 .row7 img:hover { 
     filter: grayscale(.6) sepia(.5);
-    border-radius: 2px;
+    border-radius: 20px;
 }  
 
 
