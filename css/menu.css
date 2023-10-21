@@ -33,7 +33,7 @@ h2 {
 }
 
 /*---------------------- prima riga------------------------ */
-.container .row {
+.row {
     height: 150px;
     border-radius: 5px;
     background-color: rgb(238, 237, 237);
@@ -43,7 +43,7 @@ h2 {
 }
 
 
-.container .row .square {
+.row .square {
     width: 50px;
     height: 50px;
     background-color: rgb(238, 237, 237);
@@ -54,38 +54,38 @@ h2 {
     margin-bottom: 60px ;
 }
 
-.container .row .square:hover {
+ .row .square:hover {
     background-color: red;
 } 
 
 /*---------------------- seconda riga------------------------ */
 
-.container .row1{
+.row1{
     height: 150px;
     border-radius: 5px;
     background-color: rgb(238, 237, 237);
     border: 1px solid gray;
     flex-basis: 60%;
+    padding: 20px;
     margin: 20px 0px 60px 0px;
 }
 
-.container .row1 .square1 {
+.row1 .square1 {
     width: 50px;
     height: 50px;
     background-color: red;
     padding: 50px;
-    margin: 20px;
     transition: 2s; 
     margin-bottom: 60px ;
 } 
 
-.container .row1 .square1:active  {
-    width: 90%; /* effetto allungamento orizzontale */ 
+.row1 .square1:active  {
+    width: 100%; /* effetto allungamento orizzontale */ 
 } 
 
 /*---------------------- terza riga------------------------ */
 
-.container .row2{
+.row2{
     height: 150px;
     border-radius: 5px;
     background-color: rgb(238, 237, 237);
@@ -94,7 +94,7 @@ h2 {
     margin: 20px 0px 60px 0px;
 }
 
-.container .row2 .square2 {
+.row2 .square2 {
     width: 50px;
     height: 50px;
     background-color: red;
@@ -104,13 +104,13 @@ h2 {
     margin-bottom: 60px ;
 } 
 
-.container .row2 .square2:hover {
+.row2 .square2:hover {
     border-radius: 50px; /* effetto bordo ricurvo */ 
 }  
 
 /*---------------------- quarta riga------------------------ */
 
-.container .row3{
+.row3{
     height: 150px;
     border-radius: 5px;
     background-color: rgb(238, 237, 237);
@@ -119,7 +119,7 @@ h2 {
     margin: 20px 0px 60px 0px;
 }
 
-.container .row3 .square3 {
+.row3 .square3 {
     width: 50px;
     height: 50px;
     background-color: red;
@@ -129,13 +129,13 @@ h2 {
     margin-bottom: 60px ;
 } 
 
-.container .row3 .square3:hover {
+.row3 .square3:hover {
     opacity: 0; /* effetto trasparenza*/ 
 } 
 
 /*---------------------- quinta riga------------------------ */
 
-.container .row4{
+.row4{
     height: 150px;
     border-radius: 5px;
     background-color: rgb(238, 237, 237);
@@ -144,7 +144,7 @@ h2 {
     margin: 20px 0px 60px 0px;
 }
 
-.container .row4 .square4 {
+.row4 .square4 {
     width: 10px;
     height: 10px;
     background-color: red;
@@ -154,17 +154,17 @@ h2 {
     margin-bottom: 120px ;
 } 
 
-.container .row4 .square4:hover {
+.row4 .square4:hover {
     transform: scale(2);
 }  
 
-.container .row4 .square4:active {
+.row4 .square4:active {
     transform: scale(.5); /* effetto scala */ 
 }  
 
 /*---------------------- sesta riga------------------------ */
 
-.container .row5{
+.row5{
     height: 400px;
     border-radius: 5px;
     background-color: rgb(238, 237, 237);
@@ -173,7 +173,7 @@ h2 {
     margin: 20px 0px 60px 0px;
 }
 
-.container .row5 .Img1 {
+.row5 .Img1 {
     width: 10px;
     height: 10px;
     transition: 2s; 
@@ -181,13 +181,13 @@ h2 {
     margin-bottom: 380px ;
 } 
 
-.container .row5 .Img1:hover { 
+.row5 .Img1:hover { 
     filter: grayscale(100%);  /* effetto bianco-nero */ 
 }  
 
 /*---------------------- settima riga------------------------ */
 
-.container .row6{
+.row6{
     height: 400px;
     border-radius: 5px;
     background-color: rgb(238, 237, 237);
@@ -196,7 +196,7 @@ h2 {
     margin: 20px 0px 60px 0px;
 }
 
-.container .row6 .Img1 {
+.row6 .Img1 {
     width: 10px;
     height: 10px;
     transition: 2s; 
@@ -204,17 +204,17 @@ h2 {
     margin-bottom: 380px ;
 } 
 
-.container .row6 .Img1:hover { 
+.row6 .Img1:hover { 
     filter: contrast(200%);  /* effetto bianco-nero */ 
 }  
 
-.container .row6 .Img1:active {
+.row6 .Img1:active {
     filter: saturate(8) sepia(.5); /* effetto scala */ 
 }
 
 /*---------------------- ottava riga------------------------ */
 
-.container .row7{
+.row7{
     height: 400px;
     border-radius: 5px;
     background-color: rgb(238, 237, 237);
@@ -223,14 +223,13 @@ h2 {
     margin: 20px 0px 60px 0px;
 }
 
-.container .row7 .Img1 {
+.row7 .Img1 {
     width: 10px;
     height: 10px;
-    transition: 2s; 
     padding: 20px;
     margin-bottom: 380px ;
+    transition: 2s;
 } 
-
 
 
 .row7 img:hover { 
