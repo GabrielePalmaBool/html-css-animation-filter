@@ -39,18 +39,17 @@ h2 {
     background-color: rgb(238, 237, 237);
     border: 1px solid gray;
     flex-basis: 60%;
+    padding: 10px;
     margin: 20px 0px 60px 0px;
 }
 
 
 .row .square {
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
     background-color: rgb(238, 237, 237);
     border: 1px solid red;
-    padding: 50px;
-    margin: 20px;
-    transition: background-color 3s;
+    transition: 2s;
     margin-bottom: 60px ;
 }
 
@@ -66,15 +65,14 @@ h2 {
     background-color: rgb(238, 237, 237);
     border: 1px solid gray;
     flex-basis: 60%;
-    padding: 20px;
+    padding: 10px;
     margin: 20px 0px 60px 0px;
 }
 
 .row1 .square1 {
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
     background-color: red;
-    padding: 50px;
     transition: 2s; 
     margin-bottom: 60px ;
 } 
@@ -91,15 +89,14 @@ h2 {
     background-color: rgb(238, 237, 237);
     border: 1px solid gray;
     flex-basis: 60%;
+    padding: 10px;
     margin: 20px 0px 60px 0px;
 }
 
 .row2 .square2 {
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
     background-color: red;
-    padding: 50px;
-    margin: 20px;
     transition: 2s; 
     margin-bottom: 60px ;
 } 
@@ -116,15 +113,14 @@ h2 {
     background-color: rgb(238, 237, 237);
     border: 1px solid gray;
     flex-basis: 60%;
+    padding: 10px;
     margin: 20px 0px 60px 0px;
 }
 
 .row3 .square3 {
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
     background-color: red;
-    padding: 50px;
-    margin: 20px;
     transition: 2s; 
     margin-bottom: 60px ;
 } 
@@ -141,17 +137,16 @@ h2 {
     background-color: rgb(238, 237, 237);
     border: 1px solid gray;
     flex-basis: 60%;
+    padding: 10px;
     margin: 20px 0px 60px 0px;
 }
 
 .row4 .square4 {
-    width: 10px;
-    height: 10px;
+    width: 120px;
+    height: 120px;
     background-color: red;
-    padding: 20px;
-    margin: 20px;
     transition: 2s; 
-    margin-bottom: 120px ;
+    margin-bottom: 60px ;
 } 
 
 .row4 .square4:hover {
@@ -228,13 +223,183 @@ h2 {
     height: 10px;
     padding: 20px;
     margin-bottom: 380px ;
-    transition: 2s;
+    
 } 
 
+.row7 .Img1 img {
+    transition: 2s;
+}
 
 .row7 img:hover { 
     filter: grayscale(.6) sepia(.5);
     border-radius: 20px;
 }  
 
+/*---------------------- nona riga------------------------ */
 
+.row8{
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    margin: 20px 0px 30px 0px;
+    padding: 100px;
+}
+
+.row8 .Img1 img {
+    width: 500px;
+    height: 200px;
+    transition: 2s;
+    
+}
+
+.row8 img:hover { 
+    transform: scale(1.5);
+    border-radius: 20px;
+    
+}
+
+/*---------------------- decima riga------------------------ */
+
+.row9{
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    padding: 10px;
+    margin: 20px 0px 60px 0px;
+}
+
+.row9 .fa-circle-notch {
+    color: brown;
+    font-size: 120px;
+    animation-name: rotate;
+    animation-duration: 2000ms; /* imposta la velocità del giro*/
+    animation-iteration-count: infinite;    /* continua a farlo girare*/
+    animation-timing-function: linear;  /* imposta il giro in maniera lineare*/
+    margin-bottom: 40px;
+} 
+
+@keyframes rotate{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+    
+
+/*---------------------- undicesima riga------------------------ */
+
+.row10{
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    padding: 10px;
+    margin: 20px 0px 60px 0px;
+}
+
+.row10 .fa-circle-notch {
+    color: brown;
+    font-size: 120px;
+    margin-bottom: 40px;
+    transition: 2s;
+} 
+
+
+.row10 .fa-circle-notch:hover { 
+    color: rgb(255, 0, 212);
+    animation-name: spin;
+    animation-duration: 2000ms; /* imposta la velocità del giro*/
+    animation-timing-function: linear;  /* imposta il giro in maniera lineare*/
+}
+
+@keyframes spin{ 
+
+    90% {
+        transform: rotate(320deg);
+      }
+}
+
+/*---------------------- dodicesima riga------------------------ */
+
+.row11{
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gray;
+    flex-basis: 60%;
+    margin: 20px 0px 60px 0px;
+}
+
+.row11 .link {
+    font-size: 30px;
+    transition: 2s;
+    padding: 50px;
+    position: relative;
+}
+
+.row11 .link .imgS {
+    width: 50px;
+    height: 10px;
+    background-color: rgb(238, 237, 237);
+    position: absolute;
+    top: 20%;
+    right: 90%;   
+} 
+
+.row11 .link .imgD {
+    width: 50px;
+    height: 10px;
+    background-color: rgb(238, 237, 237);
+    position: absolute;
+    top: 75%;
+    right: 86%;   
+} 
+
+
+.row11 .link a{
+    color: brown;
+    background-color: rgb(238, 237, 237);
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.row11 p {
+    margin: 30px 0px 0px 0px;
+}
+
+.row11 a:hover .imgS{     /* sto dicendo: quando il mouse è sopra il link a attiva la classe imgS(l'immagine superiore) all'interno di a*/  
+    color: rgb(255, 0, 212);
+    animation-duration: 2000ms; /* imposta la velocità del giro*/
+    animation-name: example;
+    animation-iteration-count: infinite;    /* continua a farlo girare*/
+    animation-timing-function: linear;  /* imposta il giro in maniera lineare*/
+}
+
+.row11 a:hover .imgD{ 
+    color: rgb(255, 0, 212);
+    animation-duration: 2000ms; /* imposta la velocità del giro*/
+    animation-name: example1;
+    animation-iteration-count: infinite;    /* continua a farlo girare*/
+    animation-timing-function: linear;  /* imposta il giro in maniera lineare*/
+}
+
+@keyframes example{ 
+
+    0%   { left:5%; top:20%;}
+    50%  {left:10%; top:20%;}
+    100%  {left:5%; top:20%;} 
+}
+
+@keyframes example1{ 
+
+    0%   { left:10%; top:75%;}
+    50%  {left:5%; top:75%;}
+    100%  {left:10%; top:75%;} 
+}
