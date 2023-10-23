@@ -350,7 +350,7 @@ h2 {
     background-color: rgb(238, 237, 237);
     position: absolute;
     top: 20%;
-    right: 90%;   
+    right: 94%;   
 } 
 
 .row11 .link .imgD {
@@ -375,7 +375,6 @@ h2 {
 }
 
 .row11 a:hover .imgS{     /* sto dicendo: quando il mouse è sopra il link a attiva la classe imgS(l'immagine superiore) all'interno di a*/  
-    color: rgb(255, 0, 212);
     animation-duration: 2000ms; /* imposta la velocità del giro*/
     animation-name: example;
     animation-iteration-count: infinite;    /* continua a farlo girare*/
@@ -383,7 +382,6 @@ h2 {
 }
 
 .row11 a:hover .imgD{ 
-    color: rgb(255, 0, 212);
     animation-duration: 2000ms; /* imposta la velocità del giro*/
     animation-name: example1;
     animation-iteration-count: infinite;    /* continua a farlo girare*/
@@ -392,14 +390,14 @@ h2 {
 
 @keyframes example{ 
 
-    0%   { left:5%; top:20%;}
+    0%   { left:3%; top:20%;}
     50%  {left:10%; top:20%;}
-    100%  {left:5%; top:20%;} 
+    100%  {left:3%; top:20%;} 
 }
 
 @keyframes example1{ 
 
     0%   { left:10%; top:75%;}
-    50%  {left:5%; top:75%;}
+    50%  {left:3%; top:75%;}
     100%  {left:10%; top:75%;} 
 }
